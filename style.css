@@ -1,0 +1,64 @@
+h1 {
+	color:white;
+	background-color: white;
+	 width: 100%;
+
+}
+
+h2{
+	color:#4aaaa5;
+}
+
+h3{
+	color:#4aaaa5
+
+}
+
+.footer{
+	margin-top: 700px; /* space between content and footer */
+	background: #666666;
+	/*border-top: #4aaaa5*/
+	border-top: 10px;
+	border-color: #4aaaa5;
+    height: 60px;  /* footer height */
+    padding-top: 20px;
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+}
+
+.div1 {
+    width: 400px;
+    padding: 1px;
+    border: 1px solid gray;
+    margin: 0;
+ 	float:left;
+ 	/*text-align:center;*/
+ 	background: white;
+
+}
+
+img{
+	width:175px;
+	height:200px;
+}
+
+body{
+	background:url(file:///Users/jessicasalter/Downloads/swirl_pattern/swirl_pattern.png);
+}
+
+span.highlight{
+	background-color: #4aaaa5;
+}
+ 
+ .div2 {
+ 	height: 150px;
+ 	width: 400px;
+ 	border: 1px solid gray;
+    margin: 0;
+ 	float:right;
+ 	/*text-align:center;*/
+ 	background: white;
+  }
+  
