@@ -1,8 +1,15 @@
 h1 {
-	color:white;
 	background-color: white;
-	 width: 100%;
+	height: 60px; 
+    padding-top:10px;
+    display: block;
+    box-sizing: border-box;
+    width:100%;
+    color:#4aaaa5;
+}
 
+.about{
+    font-size:10;
 }
 
 h2{
@@ -10,55 +17,61 @@ h2{
 }
 
 h3{
-	color:#4aaaa5
+	color:#4aaaa5;
 
 }
 
 .footer{
-	margin-top: 700px; /* space between content and footer */
+	margin-top: 500px; /* space between content and footer */
 	background: #666666;
 	/*border-top: #4aaaa5*/
-	border-top: 10px;
-	border-color: #4aaaa5;
+	/*border-top: 10px;*/
+	/*border-color: #4AAAA5;*/
     height: 60px;  /* footer height */
-    padding-top: 20px;
+    padding: 10px;
+    margin-bottom:1px;
     display: block;
     box-sizing: border-box;
-    position: relative;
-    width: 100%;
+   /* position: relative;*/
+    width:100%;
+    color:white;
 }
 
+/*about me box*/
 .div1 {
-    width: 400px;
+    width: 600px;
+    height: 320px;
     padding: 1px;
-    border: 1px solid gray;
-    margin: 0;
+    margin: 30px;
+    /*margin-top: 70px;*/
+    margin-left: 50px;
  	float:left;
- 	/*text-align:center;*/
  	background: white;
+ 	border-color: #8FBC8F;
+ 	border-width: 5px;
 
 }
-
 img{
 	width:175px;
 	height:200px;
+	float: left;
 }
 
 body{
 	background:url(file:///Users/jessicasalter/Downloads/swirl_pattern/swirl_pattern.png);
+    padding: 25px;
+    content: 960px;
 }
-
-span.highlight{
-	background-color: #4aaaa5;
-}
- 
- .div2 {
+/* connect with me box*/
+ .div2{
  	height: 150px;
- 	width: 400px;
- 	border: 1px solid gray;
-    margin: 0;
+ 	width: 360px;
+    margin: 30px;
  	float:right;
- 	/*text-align:center;*/
  	background: white;
+ 	border-color: #8FBC8F;
+    border-width: 5px;
   }
-  
+
+p{
+	font-family: Georgia;
